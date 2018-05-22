@@ -1,0 +1,11 @@
+[package]
+name = "rust_app"
+version = "0.1.0"
+authors = ["Nobuhito Ibaraki <niba1122@gmail.com>"]
+
+[dependencies]
+yew = { path = "../yew" }
+stdweb = "0.4.2"
+failure = "0.1"
+serde = "1"
+serde_derive = "1"
